@@ -21,6 +21,12 @@ lang-venv\Scripts\activate
 # Install Requirements
 pip install -r requirements.txt
 
+# Set .env
+mkdir .env
+echo "OPENAI_API_KEY=your_openai_api_key" > .env
+# or
+OPENAI_API_KEY=your_openai_api_key # to .env file
+
 # Run
 python 001_llm_start.py
 ```
