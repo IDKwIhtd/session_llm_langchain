@@ -22,7 +22,7 @@ lang-venv\Scripts\activate
 pip install -r requirements.txt
 
 # Set .env
-mkdir .env
+touch .env
 echo "OPENAI_API_KEY=your_openai_api_key" > .env
 # or
 OPENAI_API_KEY=your_openai_api_key # to .env file
