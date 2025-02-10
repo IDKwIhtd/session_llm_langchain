@@ -1,6 +1,7 @@
 ### CUSTOM IGNORE ###
 
 .env
+.python-version
 venv/
 lang-venv/
 

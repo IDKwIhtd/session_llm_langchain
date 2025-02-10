@@ -26,9 +26,12 @@ mkdir .env
 echo "OPENAI_API_KEY=your_openai_api_key" > .env
 # or
 OPENAI_API_KEY=your_openai_api_key # to .env file
-
-# Run
-python 001_llm_start.py
 ```
+
+```
+# Environment Check
+python 000_test.py
+```
+![image](./data/test_ok.png)
 
 
