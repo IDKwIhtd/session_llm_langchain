@@ -4,7 +4,7 @@
 .python-version
 venv/
 lang-venv/
-
+my_vector_store/
 ########################################################
 
 # Created by https://www.toptal.com/developers/gitignore/api/macos,windows,python,visualstudiocode,pycharm,django,venv,dotenv
